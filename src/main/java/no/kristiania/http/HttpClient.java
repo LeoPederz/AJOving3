@@ -7,6 +7,13 @@ import java.nio.charset.StandardCharsets;
 
 public class HttpClient {
 
+    public HttpClient(String Host, int port, String requestTarget) {
+    }
+
+    public int getStatusCode() {
+        return 0;
+    }
+
     public static void main(String[] args) throws IOException {
 
         Socket socket = new Socket("httpbin.org", 80);
